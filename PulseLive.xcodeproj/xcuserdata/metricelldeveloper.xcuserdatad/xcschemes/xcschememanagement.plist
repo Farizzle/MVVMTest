@@ -7,7 +7,35 @@
 		<key>PulseLive.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>PulseLiveTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>PulseLiveUITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>EF1025A3222714670019DE95</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFD785192232FE0500D8C49D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFD7852722345B5100D8C49D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

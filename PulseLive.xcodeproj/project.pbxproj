@@ -12,7 +12,34 @@
 		EF1025AD222714670019DE95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1025AB222714670019DE95 /* Main.storyboard */; };
 		EF1025AF222714690019DE95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1025AE222714690019DE95 /* Assets.xcassets */; };
 		EF1025B2222714690019DE95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1025B0222714690019DE95 /* LaunchScreen.storyboard */; };
+		EF1025BA2227149D0019DE95 /* DataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1025B92227149D0019DE95 /* DataDownloader.swift */; };
+		EF1025BC222714AE0019DE95 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1025BB222714AE0019DE95 /* DataParser.swift */; };
+		EF1025BE2227156C0019DE95 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1025BD2227156C0019DE95 /* Constants.swift */; };
+		EF1025C0222719E90019DE95 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1025BF222719E90019DE95 /* Articles.swift */; };
+		EF1025C222271C870019DE95 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1025C122271C870019DE95 /* Tools.swift */; };
+		EF1025C422274D970019DE95 /* ContentListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1025C322274D970019DE95 /* ContentListCollectionViewCell.swift */; };
+		EF1025C6222752B50019DE95 /* ArticlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1025C5222752B50019DE95 /* ArticlesViewModel.swift */; };
+		EF1025C8222756A50019DE95 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1025C7222756A50019DE95 /* ArticleDetailViewController.swift */; };
+		EFD7851D2232FE0500D8C49D /* PulseLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7851C2232FE0500D8C49D /* PulseLiveTests.swift */; };
+		EFD7852B22345B5100D8C49D /* PulseLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7852A22345B5100D8C49D /* PulseLiveUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFD7851F2232FE0500D8C49D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF10259C222714670019DE95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1025A3222714670019DE95;
+			remoteInfo = PulseLive;
+		};
+		EFD7852D22345B5100D8C49D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF10259C222714670019DE95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1025A3222714670019DE95;
+			remoteInfo = PulseLive;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EF1025A4222714670019DE95 /* PulseLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +49,38 @@
 		EF1025AE222714690019DE95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF1025B1222714690019DE95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF1025B3222714690019DE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1025B92227149D0019DE95 /* DataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDownloader.swift; sourceTree = "<group>"; };
+		EF1025BB222714AE0019DE95 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		EF1025BD2227156C0019DE95 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EF1025BF222719E90019DE95 /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		EF1025C122271C870019DE95 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		EF1025C322274D970019DE95 /* ContentListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentListCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF1025C5222752B50019DE95 /* ArticlesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewModel.swift; sourceTree = "<group>"; };
+		EF1025C7222756A50019DE95 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
+		EFD7851A2232FE0500D8C49D /* PulseLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD7851C2232FE0500D8C49D /* PulseLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseLiveTests.swift; sourceTree = "<group>"; };
+		EFD7851E2232FE0500D8C49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD7852822345B5100D8C49D /* PulseLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD7852A22345B5100D8C49D /* PulseLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseLiveUITests.swift; sourceTree = "<group>"; };
+		EFD7852C22345B5100D8C49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF1025A1222714670019DE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD785172232FE0500D8C49D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD7852522345B5100D8C49D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				EF1025A6222714670019DE95 /* PulseLive */,
+				EFD7851B2232FE0500D8C49D /* PulseLiveTests */,
+				EFD7852922345B5100D8C49D /* PulseLiveUITests */,
 				EF1025A5222714670019DE95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				EF1025A4222714670019DE95 /* PulseLive.app */,
+				EFD7851A2232FE0500D8C49D /* PulseLiveTests.xctest */,
+				EFD7852822345B5100D8C49D /* PulseLiveUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +113,104 @@
 		EF1025A6222714670019DE95 /* PulseLive */ = {
 			isa = PBXGroup;
 			children = (
-				EF1025A7222714670019DE95 /* AppDelegate.swift */,
+				EF1025CF22275C710019DE95 /* UI */,
+				EF1025CE22275C600019DE95 /* Resources */,
+				EF1025CD22275C510019DE95 /* Core */,
+				EF1025CC22275C390019DE95 /* ViewModel */,
+				EF1025CB22275C330019DE95 /* Model */,
+				EF1025CA22275C230019DE95 /* Helpers */,
+			);
+			path = PulseLive;
+			sourceTree = "<group>";
+		};
+		EF1025C922275BD30019DE95 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF1025C7222756A50019DE95 /* ArticleDetailViewController.swift */,
 				EF1025A9222714670019DE95 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EF1025CA22275C230019DE95 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EF1025BB222714AE0019DE95 /* DataParser.swift */,
+				EF1025B92227149D0019DE95 /* DataDownloader.swift */,
+				EF1025C122271C870019DE95 /* Tools.swift */,
+				EF1025BD2227156C0019DE95 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EF1025CB22275C330019DE95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF1025BF222719E90019DE95 /* Articles.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF1025CC22275C390019DE95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EF1025C5222752B50019DE95 /* ArticlesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EF1025CD22275C510019DE95 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EF1025B3222714690019DE95 /* Info.plist */,
+				EF1025A7222714670019DE95 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EF1025CE22275C600019DE95 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				EF1025AB222714670019DE95 /* Main.storyboard */,
 				EF1025AE222714690019DE95 /* Assets.xcassets */,
 				EF1025B0222714690019DE95 /* LaunchScreen.storyboard */,
-				EF1025B3222714690019DE95 /* Info.plist */,
 			);
-			path = PulseLive;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EF1025CF22275C710019DE95 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EF1025D022275C800019DE95 /* Cells */,
+				EF1025C922275BD30019DE95 /* ViewControllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EF1025D022275C800019DE95 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF1025C322274D970019DE95 /* ContentListCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EFD7851B2232FE0500D8C49D /* PulseLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD7851C2232FE0500D8C49D /* PulseLiveTests.swift */,
+				EFD7851E2232FE0500D8C49D /* Info.plist */,
+			);
+			path = PulseLiveTests;
+			sourceTree = "<group>";
+		};
+		EFD7852922345B5100D8C49D /* PulseLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD7852A22345B5100D8C49D /* PulseLiveUITests.swift */,
+				EFD7852C22345B5100D8C49D /* Info.plist */,
+			);
+			path = PulseLiveUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +233,42 @@
 			productReference = EF1025A4222714670019DE95 /* PulseLive.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EFD785192232FE0500D8C49D /* PulseLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD785232232FE0500D8C49D /* Build configuration list for PBXNativeTarget "PulseLiveTests" */;
+			buildPhases = (
+				EFD785162232FE0500D8C49D /* Sources */,
+				EFD785172232FE0500D8C49D /* Frameworks */,
+				EFD785182232FE0500D8C49D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD785202232FE0500D8C49D /* PBXTargetDependency */,
+			);
+			name = PulseLiveTests;
+			productName = PulseLiveTests;
+			productReference = EFD7851A2232FE0500D8C49D /* PulseLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFD7852722345B5100D8C49D /* PulseLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD7852F22345B5100D8C49D /* Build configuration list for PBXNativeTarget "PulseLiveUITests" */;
+			buildPhases = (
+				EFD7852422345B5100D8C49D /* Sources */,
+				EFD7852522345B5100D8C49D /* Frameworks */,
+				EFD7852622345B5100D8C49D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD7852E22345B5100D8C49D /* PBXTargetDependency */,
+			);
+			name = PulseLiveUITests;
+			productName = PulseLiveUITests;
+			productReference = EFD7852822345B5100D8C49D /* PulseLiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +281,14 @@
 				TargetAttributes = {
 					EF1025A3222714670019DE95 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					EFD785192232FE0500D8C49D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EF1025A3222714670019DE95;
+					};
+					EFD7852722345B5100D8C49D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EF1025A3222714670019DE95;
 					};
 				};
 			};
@@ -113,6 +306,8 @@
 			projectRoot = "";
 			targets = (
 				EF1025A3222714670019DE95 /* PulseLive */,
+				EFD785192232FE0500D8C49D /* PulseLiveTests */,
+				EFD7852722345B5100D8C49D /* PulseLiveUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +323,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFD785182232FE0500D8C49D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD7852622345B5100D8C49D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -135,12 +344,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1025BE2227156C0019DE95 /* Constants.swift in Sources */,
 				EF1025AA222714670019DE95 /* ViewController.swift in Sources */,
+				EF1025BA2227149D0019DE95 /* DataDownloader.swift in Sources */,
+				EF1025BC222714AE0019DE95 /* DataParser.swift in Sources */,
+				EF1025C8222756A50019DE95 /* ArticleDetailViewController.swift in Sources */,
+				EF1025C422274D970019DE95 /* ContentListCollectionViewCell.swift in Sources */,
+				EF1025C6222752B50019DE95 /* ArticlesViewModel.swift in Sources */,
+				EF1025C222271C870019DE95 /* Tools.swift in Sources */,
+				EF1025C0222719E90019DE95 /* Articles.swift in Sources */,
 				EF1025A8222714670019DE95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFD785162232FE0500D8C49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD7851D2232FE0500D8C49D /* PulseLiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD7852422345B5100D8C49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD7852B22345B5100D8C49D /* PulseLiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFD785202232FE0500D8C49D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1025A3222714670019DE95 /* PulseLive */;
+			targetProxy = EFD7851F2232FE0500D8C49D /* PBXContainerItemProxy */;
+		};
+		EFD7852E22345B5100D8C49D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1025A3222714670019DE95 /* PulseLive */;
+			targetProxy = EFD7852D22345B5100D8C49D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EF1025AB222714670019DE95 /* Main.storyboard */ = {
@@ -284,7 +530,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P27A23S3XE;
-				INFOPLIST_FILE = PulseLive/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PulseLive/Core/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +548,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P27A23S3XE;
-				INFOPLIST_FILE = PulseLive/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PulseLive/Core/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +557,84 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFD785212232FE0500D8C49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P27A23S3XE;
+				INFOPLIST_FILE = PulseLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fariszaman.PulseLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseLive.app/PulseLive";
+			};
+			name = Debug;
+		};
+		EFD785222232FE0500D8C49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P27A23S3XE;
+				INFOPLIST_FILE = PulseLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fariszaman.PulseLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseLive.app/PulseLive";
+			};
+			name = Release;
+		};
+		EFD7853022345B5100D8C49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P27A23S3XE;
+				INFOPLIST_FILE = PulseLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fariszaman.PulseLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PulseLive;
+			};
+			name = Debug;
+		};
+		EFD7853122345B5100D8C49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P27A23S3XE;
+				INFOPLIST_FILE = PulseLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fariszaman.PulseLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PulseLive;
 			};
 			name = Release;
 		};
@@ -331,6 +655,24 @@
 			buildConfigurations = (
 				EF1025B7222714690019DE95 /* Debug */,
 				EF1025B8222714690019DE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD785232232FE0500D8C49D /* Build configuration list for PBXNativeTarget "PulseLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD785212232FE0500D8C49D /* Debug */,
+				EFD785222232FE0500D8C49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD7852F22345B5100D8C49D /* Build configuration list for PBXNativeTarget "PulseLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD7853022345B5100D8C49D /* Debug */,
+				EFD7853122345B5100D8C49D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
